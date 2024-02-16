@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Cinzel&family=Comfortaa:wght@300&family=Gabarito&family=Lato&family=Montserrat:ital,wght@1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600&family=Poppins&family=Raleway:wght@200&family=Roboto:wght@300&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Cinzel&family=Comfortaa:wght@300&family=Dancing+Script&family=Gabarito&family=Lato&family=Montserrat:ital,wght@1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600&family=Poppins&family=Raleway:wght@200&family=Roboto:wght@300&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Cinzel&family=Comfortaa:wght@300&family=Dancing+Script&family=Gabarito&family=Lato&family=Montserrat:ital,wght@1,500&family=Open+Sans&family=Plus+Jakarta+Sans:wght@300;400;500;600&family=Poppins&family=Raleway:wght@200&family=Roboto:wght@300&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    top: 0;
+}
+
+main{
+   width: 100%;
+   height: 100vh;
+   background-image: linear-gradient( #1e1a35  , #9191ea);
+   color: azure;
+}
+ 
+.main-img {
+    position: relative;
+    max-width: 100%;
+}
+
+.main-img img{
+    max-width: 100%;
+    height: auto;
+    float: right;
+    max-height: 35rem;
+}
+
+
+nav .icon{
+    font-size: larger;
+    color: rgb(255, 255, 255);
+    margin-right: 5px;
+}
+
+
+
+nav ul li a{
+    text-decoration: none;
+    opacity: 0.5;
+    color: rgba(255, 255, 255);
+    font-family: poppins;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    opacity: 1;
+}
+
+nav ul {
+    list-style: none;
+    padding-top: 15px;
+    justify-content: right;  
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 50px;
+    text-align: center;
+}
+
+.content {
+    top: 50%;
+    left: 45%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+.content .p1{
+    font-family: poppins;
+    font-weight: lighter;
+}
+
+
+.content .p2{
+    font-family: poppins;
+    font-weight: lighter;
+}
+
+
+
+.nav-icon {
+    display: flex;
+    justify-content: right;
+}
+
+.content h1 {
+      font-family: Dancing Script;
+      font-size: 4.5rem;
+      font-weight: lighter;
+}
+
+
+.none {
+    display: none;
+}
+ 
+.footer-content ul li{
+    top: 50%;
+    left: 45%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+
+label.logo {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: flex-start;
+   line-height: 80px;
+   margin-left: 15px;
+   font-family:Open Sans;
+   font-size: 25px;
+   letter-spacing: 1px;
+}
+
+button {
+   padding: 12px 35px 12px 35px;
+   border-radius: 45px;
+   font-size: small;
+   border: 0px solid black;
+   font-family: poppins;
+   font-weight: bold;
+   text-transform: uppercase;
+   cursor: pointer;
+}
+
+button:hover{
+    background-color: #1e1a35;
+    color: aliceblue;
+}
+
+footer {
+    background-color: #e3e3fe;
+    width: 100%;
+}
+
+footer img {
+    /* position: absolute; */
+    height: 500px;
+    margin-top: 65px;
+    margin-left: 10%;
+    box-shadow: inset 0px -15px 10px -18px rgba(0, 0, 0, 0.85);
+}
+
+
+
+ footer ul {
+   list-style: none;
+   top: 50%;
+   left: 45%;
+   position: absolute;
+   transform: translate(-50%, 180%);
+   font-family: poppins;
+} 
+
+
+footer h1 {
+    margin-top: -35%;
+    padding-bottom: 2rem;
+}
+
+footer ul li{
+    margin: 0.5rem;
+    line-height: 2rem;
+}
+
+footer ul li a {
+    margin: 0.5rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+} 
+
+footer ul li p {
+    font-weight: lighter;
+}
+
+footer button{
+    padding: 12px 35px 12px 35px;
+    border-radius: 45px;
+    font-size: small;
+    border: 0px solid white;
+    font-family: poppins;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: rgb(29, 223, 68);
+    color: white;
+    letter-spacing: 1.5px;
+    position: relative;
+    left: 32%;
+    margin-top: -10%;
+}
+
